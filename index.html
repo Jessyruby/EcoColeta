@@ -7,7 +7,7 @@
     <title>EcoColeta</title>
 </head>
 <body>
-    <header>
+    <header id="cabecalho">
         
         <div id="icon">
             <img src="img/icon.png">
@@ -16,18 +16,24 @@
         
         <nav>
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#como-separar">Como Separar</a></li>
-                <li><a href="#horarios">Horários de Coleta</a></li>
-                <li><a href="#dicas">Dicas Sustentáveis</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#inicio" class="menu-link">Início</a></li>
+                <li><a href="#como-separar" class="menu-link">Como Separar</a></li>
+                <li><a href="#horarios" class="menu-link">Horários de Coleta</a></li>
+                <li><a href="#dicas" class="menu-link">Dicas Sustentáveis</a></li>
+                <li><a href="#contato" class="menu-link">Contato</a></li>
             </ul>
         </nav>
+
+        <div id="login">
+            <a id="entrar" class="btnLogin">Entrar</button>
+            <a id="cadastrar" class="btnLogin">Cadastrar</button>
+        </div>
+        
     </header>
 
     <main>
         <section class="introducao">
-            <img id="painel" src="img/painel.png" alt="">
+            <img id="painel" src="img/FRhV8KTXoAAOiao.jpg" alt="">
 
             <div id="painel-text">
                 <h1>Coleta de Lixo: Conscientização e Ação</h1>
@@ -36,7 +42,7 @@
             
         </section>
         
-        <section id="como-separar">
+        <section class="como-separar">
         <h2>Como Separar o Lixo</h2>
         <p>Separar o lixo corretamente é o primeiro passo para um mundo mais sustentável. Veja como fazer:</p>
         <ul>
@@ -66,5 +72,7 @@
     <footer>
 
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

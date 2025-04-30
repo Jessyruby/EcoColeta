@@ -10,9 +10,16 @@ header {
     display: flex;
     position: fixed;
     justify-content: space-between;
+    align-items: center;
     height: 8vh;
     width: 100%;
     z-index: 2;
+}
+
+header.rolagem {
+    background: #5c763b;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 #icon {
@@ -29,36 +36,99 @@ header {
     margin-right: 5px;
 }
 
-header nav {
-    margin-right: 70px;
-}
-
 header nav ul li{
     display: inline;
     margin: 12px;
-    
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 10pt;
+}
+
+header nav ul li a:hover {
+    color: #dad873;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s;
+}
+  
+.menu-link.ativo {
+    border-bottom: 2px solid #dad873; 
+    font-weight: 500;
+}
+
+#login  {
+    font-size: 10pt;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#login #entrar{
+    color: #fff;
+    margin-right: 20px;
+}
+
+#login #entrar:hover {
+    color: #dad873;
+}
+  
+#login #cadastrar {
+    background: #dad873;
+    border: 2px solid #dad873;
+    padding: 7px 12px;
+    border-radius: 12px;
+    color: #5c763b;
+}
+
+#login #cadastrar:hover {
+    background: #dad87300;
+    color: #fff;
 }
 
 .introducao {
     background: #000;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
 }
 
 #painel {
-    opacity: 0.4;
-    margin-top: -70px;
-    z-index: 0;
-    object-fit: cover; 
+    object-fit: cover;
+    filter: brightness(0.6);
 }
 
 #painel-text {
-    z-index: 2;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 100px;
+    color: #fff;
+    width: 50%;
+}
+
+#painel-text h1 {
+    font-size: 42pt;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+#painel-text p {
+    font-size: 10pt;
+    width: 90%;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.como-separar {
+
 }
