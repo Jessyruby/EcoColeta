@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <title>EcoColeta</title>
 </head>
 <body>
@@ -43,20 +43,63 @@
         </section>
         
         <section class="como-separar">
-        <h2>Como Separar o Lixo</h2>
-        <p>Separar o lixo corretamente é o primeiro passo para um mundo mais sustentável. Veja como fazer:</p>
-        <ul>
-            <li><strong>Recicláveis:</strong> papel, plástico, vidro, metal.</li>
-            <li><strong>Orgânicos:</strong> restos de comida, cascas de frutas.</li>
-            <li><strong>Rejeitos:</strong> papel higiênico, fraldas, absorventes.</li>
-        </ul>
-        </section>
-        
-          <section id="horarios">
-            <h2>Horários de Coleta</h2>
-            <p>Confira os dias e horários da coleta de lixo na sua região. Mantenha o lixo bem acondicionado e coloque-o para fora apenas nos horários certos.</p>
-            <!-- Aqui você pode inserir uma tabela ou um mapa com horários por bairro -->
+            <div class="container">
+              <h2>Como Separar o Lixo</h2>
+              <p>Separar o lixo corretamente é essencial para facilitar a reciclagem, reduzir a poluição e contribuir com o meio ambiente. Veja como organizar:</p>
+          
+              <div class="tipo-lixo">
+                <h3>Recicláveis</h3>
+                <p>Devem estar limpos e secos para não contaminar os demais.</p>
+                <ul>
+                  <li>Papel (jornais, revistas, caixas)</li>
+                  <li>Plástico (garrafas PET, embalagens)</li>
+                  <li>Vidro (potes, garrafas, frascos)</li>
+                  <li>Metal (latas de alumínio, tampas)</li>
+                </ul>
+              </div>
+          
+              <div class="tipo-lixo">
+                <h3>Orgânicos</h3>
+                <p>São restos de origem vegetal ou animal, ideais para compostagem.</p>
+                <ul>
+                  <li>Restos de comida</li>
+                  <li>Cascas de frutas e legumes</li>
+                  <li>Borras de café e saquinhos de chá</li>
+                </ul>
+              </div>
+          
+              <div class="tipo-lixo">
+                <h3>Rejeitos</h3>
+                <p>Não podem ser reciclados e devem ser descartados corretamente.</p>
+                <ul>
+                  <li>Papel higiênico usado</li>
+                  <li>Fraldas e absorventes</li>
+                  <li>Bitucas de cigarro</li>
+                  <li>Espuma suja e esponjas velhas</li>
+                </ul>
+              </div>
+            </div>
           </section>
+
+          <section id="horarios" class="consulta-coleta">
+            <h2>Consulte os Horários de Coleta no Seu Bairro</h2>
+
+            <div class="search-container position-relative">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="search-icon feather feather-search">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input class="form-control search-input ps-5" id="bairro" type="search"
+                      placeholder="Digite seu bairro" aria-label="Search">
+              <button class="btn btn-search ms-2" onclick="buscarHorarios()">Search</button>
+            
+          </div>
+        
+            <div id="resultado" class="resultado"></div>
+          </section>           
         
           <section id="dicas">
             <h2>Dicas Sustentáveis</h2>
@@ -73,6 +116,7 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
