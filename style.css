@@ -124,7 +124,7 @@ header nav ul li a:hover {
 
 #painel-text p {
     font-size: 10pt;
-    width: 90%;
+    width: 81%;
     text-align: justify;
     font-weight: 300;
 }
@@ -190,10 +190,11 @@ header nav ul li a:hover {
   .tipo-lixo h3 {
     margin-top: 8px;
     margin-bottom: 0; 
+    color: #0e3811;
   }
 
   .tipo-lixo p {
-    font-size: 9pt;
+    font-size: 8pt;
     text-align: center;
     margin-bottom: 10px;
     width: 240px;
@@ -204,6 +205,7 @@ header nav ul li a:hover {
     padding-left: 20px;
     list-style: disc;
     font-size: 9pt;
+    color: #1b5e20;
   }
 
   /*////////////////////////////////////////////*/
