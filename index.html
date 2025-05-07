@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Xx...c=" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title>EcoColeta</title>
 </head>
 <body>
@@ -43,22 +46,26 @@
         </section>
         
         <section class="como-separar">
+
+          <h2>Como Separar o Lixo</h2>
+          <p>Separar o lixo corretamente é essencial para facilitar a reciclagem, reduzir a poluição e contribuir com o meio ambiente. Veja como organizar:</p>
+
             <div class="container">
-              <h2>Como Separar o Lixo</h2>
-              <p>Separar o lixo corretamente é essencial para facilitar a reciclagem, reduzir a poluição e contribuir com o meio ambiente. Veja como organizar:</p>
-          
+              
               <div class="tipo-lixo">
-                <h3>Recicláveis</h3>
-                <p>Devem estar limpos e secos para não contaminar os demais.</p>
-                <ul>
-                  <li>Papel (jornais, revistas, caixas)</li>
-                  <li>Plástico (garrafas PET, embalagens)</li>
-                  <li>Vidro (potes, garrafas, frascos)</li>
-                  <li>Metal (latas de alumínio, tampas)</li>
-                </ul>
+
+                  <h3>Recicláveis</h3>
+                  <p>Devem estar limpos e secos para não contaminar os demais.</p>
+                  <ul>
+                    <li>Papel (jornais, revistas, caixas)</li>
+                    <li>Plástico (garrafas PET, embalagens)</li>
+                    <li>Vidro (potes, garrafas, frascos)</li>
+                    <li>Metal (latas de alumínio, tampas)</li>
+                  </ul>
               </div>
           
               <div class="tipo-lixo">
+
                 <h3>Orgânicos</h3>
                 <p>São restos de origem vegetal ou animal, ideais para compostagem.</p>
                 <ul>
@@ -69,6 +76,7 @@
               </div>
           
               <div class="tipo-lixo">
+
                 <h3>Rejeitos</h3>
                 <p>Não podem ser reciclados e devem ser descartados corretamente.</p>
                 <ul>
@@ -94,22 +102,53 @@
               </svg>
               <input class="form-control search-input ps-5" id="bairro" type="search"
                       placeholder="Digite seu bairro" aria-label="Search">
-              <button class="btn btn-search ms-2" onclick="buscarHorarios()">Search</button>
+              <button class="btn btn-search ms-2" onclick="buscarHorarios()">Consultar</button>
             
           </div>
         
             <div id="resultado" class="resultado"></div>
           </section>           
         
-          <section id="dicas">
-            <h2>Dicas Sustentáveis</h2>
-            <p>Além da coleta, pequenas atitudes fazem a diferença:</p>
-            <ul>
-              <li>Reduza o uso de plásticos descartáveis</li>
-              <li>Reutilize potes, garrafas e embalagens</li>
-              <li>Recicle sempre que possível</li>
-            </ul>
+          <section id="dicas" class="dicas">
+            <div class="dicas-conteudo">
+              <h2>Dicas Sustentáveis</h2>
+              <p>Adote hábitos simples que fazem grande diferença no cuidado com o planeta.</p>
+          
+              <div class="dica-item">
+                <div class="icone"><i class="fas fa-trash-alt"></i></div>
+                <div class="texto">
+                  <h4>Separe o lixo corretamente</h4>
+                  <p>Organize resíduos recicláveis, orgânicos e rejeitos para facilitar a coleta seletiva.</p>
+                </div>
+              </div>
+          
+              <div class="dica-item">
+                <div class="icone"><i class="fas fa-seedling"></i></div>
+                <div class="texto">
+                  <h4>Composte resíduos orgânicos</h4>
+                  <p>Transforme restos de alimentos em adubo natural e reduza o lixo doméstico.</p>
+                </div>
+              </div>
+          
+              <div class="dica-item">
+                <div class="icone"><i class="fas fa-tint"></i></div>
+                <div class="texto">
+                  <h4>Economize água</h4>
+                  <p>Evite desperdícios no dia a dia e reutilize a água quando possível.</p>
+                </div>
+              </div>
+          
+              <div class="dica-item">
+                <div class="icone"><i class="fas fa-shopping-bag"></i></div>
+                <div class="texto">
+                  <h4>Evite sacolas plásticas</h4>
+                  <p>Use ecobags e opte por embalagens reutilizáveis e sustentáveis.</p>
+                </div>
+              </div>
+            </div>
           </section>
+          
+          
     </main>
 
     <footer>
