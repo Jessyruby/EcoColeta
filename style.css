@@ -287,10 +287,12 @@ header nav ul li a:hover {
 /*///////////////////////////////////*/
 
 .dicas{
-    background: #ffffff;
+    background: #dad8739d;
     padding: 70px 20px;
     display: flex;
     align-items: center;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
   }
   
   .dicas-conteudo {
@@ -309,7 +311,7 @@ header nav ul li a:hover {
   .dicas-conteudo > p {
     color: #555;
     font-size: 14px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
   }
   
   .dica-item {
@@ -317,9 +319,9 @@ header nav ul li a:hover {
     align-items: center;
     gap: 20px;
     padding: 40px 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border-radius: 30px;
-    background: #dad8739d;
+    background: #FFF;
   }
   
   .dica-item:nth-of-type(1), .dica-item:nth-of-type(3){
@@ -405,6 +407,7 @@ header nav ul li a:hover {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     padding: 20px;
+    margin-top: -30px;
   }
 
   footer #icon {
