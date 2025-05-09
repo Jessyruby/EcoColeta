@@ -13,7 +13,6 @@ function ativarLinkAtual() {
 
 ativarLinkAtual();
 
-// Ativa ao mudar de seção
 window.addEventListener('hashchange', ativarLinkAtual);
 
 ///////////////////////////////////////////////////////////////////////////////

@@ -64,30 +64,21 @@ header nav ul li a:hover {
     font-weight: 500;
 }
 
-#login  {
+#b-denuncia  {
     font-size: 10pt;
     font-weight: 500;
     cursor: pointer;
 }
-
-#login #entrar{
-    color: #fff;
-    margin-right: 20px;
-}
-
-#login #entrar:hover {
-    color: #dad873;
-}
   
-#login #cadastrar {
+#b-denuncia #denuncia {
     background: #dad873;
     border: 2px solid #dad873;
     padding: 7px 12px;
-    border-radius: 12px;
+    border-radius: 15px;
     color: #5c763b;
 }
 
-#login #cadastrar:hover {
+#b-denuncia #denuncia:hover {
     background: #dad87300;
     color: #fff;
 }
