@@ -36,6 +36,10 @@ header.rolagem {
     margin-right: 5px;
 }
 
+header nav {
+    margin-right: -60px;
+}
+
 header nav ul li{
     display: inline;
     margin: 12px;
