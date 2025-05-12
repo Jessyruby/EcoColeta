@@ -29,7 +29,7 @@ async function buscarHorarios() {
   const resultado = document.getElementById("resultado");
 
   try {
-    const res = await axios.get(`http://localhost:5000/bairros/${bairro}`);
+    const res = await axios.get(`http://https://ecocoleta-server.onrender.com/bairros/${bairro}`);
     const dados = res.data;
 
     resultado.innerHTML = `
