@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    background: #5c763b;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 20px;
+    margin-top: -30px;
+  }
+
+  footer #icon {
+    margin-left: 40px;
+  }
+
+  footer p {
+    color: #fff;
+    font-size: 7pt;
+    margin: 0 auto;
+  }

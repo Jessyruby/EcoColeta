@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    z-index: 2;
+}
+
+header.rolagem {
+    background: #5c763b;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 140px;
+}
+
+#icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+header nav {
+    margin-right: -300px;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 12px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+header nav ul li a:hover {
+    color: #dad873;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s;
+}
+  
+.menu-link.ativo {
+    border-bottom: 2px solid #dad873; 
+    font-weight: 500;
+}
+
+#b-denuncia  {
+    font-size: 10pt;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 200px;
+}
+  
+#b-denuncia #denuncia {
+    background: #dad873;
+    border: 2px solid #dad873;
+    padding: 7px 12px;
+    border-radius: 15px;
+    color: #5c763b;
+    text-decoration: none;
+}
+
+#b-denuncia #denuncia:hover {
+    background: #dad87300;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    #icon {
+        margin-left: 0;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icon p {
+        margin: 0;
+    }
+
+    #b-denuncia {
+        display: none;
+    }
+}

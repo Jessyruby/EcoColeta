@@ -1,0 +1,40 @@
+.introducao {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#painel {
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+#painel-text {
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 100px;
+    color: #fff;
+    width: 50%;
+}
+
+#painel-text h1 {
+    font-size: 42pt;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+#painel-text p {
+    font-size: 10pt;
+    width: 81%;
+    text-align: justify;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+   
+}
