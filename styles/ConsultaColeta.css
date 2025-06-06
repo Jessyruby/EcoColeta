@@ -69,10 +69,14 @@
 .resultado {
   margin-top: -24px;
   font-size: 15px;
-  color: #444444;
+  color: #6d6d6d;
 }
 
 @media (max-width: 768px) {
+    .search-container{
+        display: flex;
+    }
+
     .consulta-coleta h2 {
         font-size: 15pt;
     }
