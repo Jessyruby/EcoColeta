@@ -67,3 +67,41 @@
     color: #666;
     font-size: 14px;
   }
+
+  @media (max-width: 768px) {
+    .dicas{
+      border-radius: 0;
+      padding-top: 40px;
+  }
+
+  .dicas-conteudo h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .dicas-conteudo > p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .dica-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .icone {
+    margin-bottom: 15px;
+  }
+
+  .texto h4 {
+    font-size: 16px;
+  }
+
+  .texto p {
+    font-size: 13px;
+  }
+}

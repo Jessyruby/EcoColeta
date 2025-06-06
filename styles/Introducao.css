@@ -5,11 +5,14 @@
     height: 100vh;
     overflow: hidden;
     justify-content: center;
+    position: relative;
 }
 
 #painel {
     object-fit: cover;
     filter: brightness(0.6);
+    width: 100%;
+    height: 100vh;
 }
 
 #painel-text {
@@ -36,5 +39,21 @@
 }
 
 @media (max-width: 768px) {
-   
+    #painel-text {
+        position: static;
+        margin: 0 20px;
+        width: auto;
+        text-align: center;
+    }
+
+    #painel-text h1 {
+        font-size: 24pt;
+        line-height: 1.2;
+    }
+
+    #painel-text p {
+        width: 100%;
+        font-size: 9pt;
+        text-align: center;
+    }
 }

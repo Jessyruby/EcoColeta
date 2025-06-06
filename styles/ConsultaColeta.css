@@ -71,3 +71,9 @@
   font-size: 15px;
   color: #444444;
 }
+
+@media (max-width: 768px) {
+    .consulta-coleta h2 {
+        font-size: 15pt;
+    }
+}

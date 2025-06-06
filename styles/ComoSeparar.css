@@ -76,7 +76,39 @@
   }
 
   @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
+    .como-separar p {
+        width: 90%;
+        margin-bottom: 40px;
+        font-size: 9pt;
     }
-  }
+    .como-separar h2 {
+      font-size: 21pt;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .tipo-lixo {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        margin-bottom: 30px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px;
+        transform: none !important;
+    }
+
+    .tipo-lixo:hover {
+        transform: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    }
+
+    .tipo-lixo img {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}

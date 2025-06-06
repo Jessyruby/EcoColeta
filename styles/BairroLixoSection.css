@@ -38,3 +38,13 @@
     color: #444;
     margin: 0;
   }
+
+  @media (max-width: 768px) {
+    .bairro-lixo-section h2 {
+      font-size: 23px;
+    }
+
+    .bairro-lixo-section p {
+      font-size: 10px; 
+    }
+  }

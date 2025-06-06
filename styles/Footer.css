@@ -16,3 +16,23 @@ footer {
     font-size: 7pt;
     margin: 0 auto;
   }
+
+  @media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    footer #icon {
+        margin: 0;
+        justify-content: center;
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 7pt;
+        flex: none;
+    }
+}
