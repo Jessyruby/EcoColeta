@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido como parte do Projeto Integrador (PI) do curso técnico de Informática, com o objetivo de facilitar o acesso da população às informações sobre a coleta de lixo nos bairros da cidade.
 
-![Imagem do Projeto](https://i.imgur.com/fYdcuOx.png)
+![Imagem do Projeto](https://i.imgur.com/6VWCBNx.png)
 
 
 ## 🧠 Objetivo
