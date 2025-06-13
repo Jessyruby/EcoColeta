@@ -4,9 +4,6 @@ Este projeto foi desenvolvido como parte do Projeto Integrador (PI) do curso té
 
 ![Imagem do Projeto](https://i.imgur.com/fYdcuOx.png)
 
-<br>
-
-![Imagem do projeto Mobile](https://i.imgur.com/9QjXr5i.png)
 
 ## 🧠 Objetivo
 
@@ -53,4 +50,4 @@ O protótipo do site foi desenvolvido no **Figma**, com foco em:
 ## Prévia
 Você pode ver uma prévia do projeto aqui:
 
-[https://jessyruby.github.io/BlackWidowWeb/](https://eco-coleta.vercel.app/)
+https://eco-coleta.vercel.app
