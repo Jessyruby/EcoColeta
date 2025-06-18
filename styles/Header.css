@@ -66,6 +66,7 @@ header nav ul li a:hover {
     font-size: 10pt;
     font-weight: 500;
     cursor: pointer;
+    margin-left: 20px;
 }
   
 #b-denuncia #denuncia {
