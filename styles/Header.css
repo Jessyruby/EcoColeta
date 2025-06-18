@@ -29,6 +29,7 @@ header.rolagem {
 }
 
 header nav {
+    display: flex;
     margin-right: 7%;
 }
 
