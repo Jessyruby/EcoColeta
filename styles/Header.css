@@ -29,7 +29,7 @@ header.rolagem {
 }
 
 header nav {
-    
+    margin-right: -200px
 }
 
 header nav ul li{
@@ -64,7 +64,7 @@ header nav ul li a:hover {
     font-size: 10pt;
     font-weight: 500;
     cursor: pointer;
-    margin-right: 200px;
+   
 }
   
 #b-denuncia #denuncia {
